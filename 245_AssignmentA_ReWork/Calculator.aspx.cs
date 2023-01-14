@@ -12,12 +12,7 @@ namespace _245_AssignmentA_ReWork
         protected void Page_Load(object sender, EventArgs e)
         {
             txtDisplay.Style["Text-Align"] = "right"; //right align style
-            if (!IsPostBack)
-            {
-                txtDisplay.Text = "0"; //set to 0 on first load[
-                txtDisplay.Enabled = false; //don't allow typing.
-            }
-        }
+            if (!IsPostBack){txtDisplay.Text = "0"; /*set to 0 on first load*/txtDisplay.Enabled = false;}}
 
         protected void btn0_Click(object sender, EventArgs e)
         {
@@ -25,10 +20,9 @@ namespace _245_AssignmentA_ReWork
         }
 
         protected void btnC_Click(object sender, EventArgs e)
-        {
-            txtDisplay.Text = "0";
-            Application["X"] = 0;
-        }
+        {txtDisplay.Text = "0";
+            Application["X"] = 0;}
+        
 
         protected void btnAdd_Click(object sender, EventArgs e)
         {
@@ -43,8 +37,8 @@ namespace _245_AssignmentA_ReWork
                     Application["Operator"] = null;
                     break;
                 case "/":
-                    if(txtDisplay.Text != "0")
-                    txtDisplay.Text = (Convert.ToDecimal(Application["X"]) / Convert.ToDecimal(txtDisplay.Text)).ToString();
+                    if (txtDisplay.Text != "0")
+                        txtDisplay.Text = (Convert.ToDecimal(Application["X"]) / Convert.ToDecimal(txtDisplay.Text)).ToString();
                     else txtDisplay.Text = "0";
                     Application["Operator"] = null;
                     break;
@@ -60,12 +54,7 @@ namespace _245_AssignmentA_ReWork
                     Application["Operator"] = ((Button)sender).Text;
                     txtDisplay.Text = "0";
                     break;
-            }
-        }
-
+            }}
         protected void btnPoint_Click(object sender, EventArgs e)
-        {
-            txtDisplay.Text = txtDisplay.Text.Contains(".") ? txtDisplay.Text = txtDisplay.Text : txtDisplay.Text += ".";
-        }
-    }
-}
+        {txtDisplay.Text = txtDisplay.Text.Contains(".") ? txtDisplay.Text = txtDisplay.Text : txtDisplay.Text += ".";
+        } } }

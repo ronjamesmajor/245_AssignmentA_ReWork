@@ -4,11 +4,14 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Assignment B - Calculator Themes</title>
 </head>
 <body style="background-color: #252c2b; padding:10px; ">
-    <form id="form1" runat="server" style="width:53%; display:inline-block; vertical-align:middle; align-content:center">
-        <div style="position:relative center;" title="Assignment A - Calculator">
+        <div>
+            <h1>Choose a Theme:</h1>
+        </div><br />
+    <form id="form1" runat="server" style="width:53%; display:block; vertical-align:middle; align-content:center">
+        <div title="Assignment B - Calculator Themes">
             <asp:Panel ID="Panel1" runat="server" Height="779px" Width="544px" BackColor="#1C2022" HorizontalAlign="Center">
                 <asp:TextBox ID="txtDisplay" runat="server" BackColor="#94C595" Font-Names="Lucida Console" Font-Size="96pt" Style="z-index: 1; left: 25px; top: 33px; position: absolute; text-align: center; height: 150px" Width="518px"></asp:TextBox>
 
