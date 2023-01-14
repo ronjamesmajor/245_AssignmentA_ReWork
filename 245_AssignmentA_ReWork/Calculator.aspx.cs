@@ -14,13 +14,8 @@ namespace _245_AssignmentA_ReWork
             txtDisplay.Style["Text-Align"] = "right"; //right align style
             if (!IsPostBack)
             {
-                //set to 0 on first load.
-                txtDisplay.Text = "0";
+                txtDisplay.Text = "0"; //set to 0 on first load[
                 txtDisplay.Enabled = false; //don't allow typing.
-            }
-            else
-            {
-                //do something.
             }
         }
 
@@ -37,8 +32,7 @@ namespace _245_AssignmentA_ReWork
 
         protected void btnAdd_Click(object sender, EventArgs e)
         {
-            decimal tmpA, tmp;
-            switch (Application["Operator"])
+            switch (Application["Operator"]) //switch on button pressed.
             {
                 case "+":
                     txtDisplay.Text = (Convert.ToDecimal(Application["X"]) + Convert.ToDecimal(txtDisplay.Text)).ToString();
@@ -49,10 +43,17 @@ namespace _245_AssignmentA_ReWork
                     Application["Operator"] = null;
                     break;
                 case "/":
+                    if(txtDisplay.Text != "0")
+                    txtDisplay.Text = (Convert.ToDecimal(Application["X"]) / Convert.ToDecimal(txtDisplay.Text)).ToString();
+                    else txtDisplay.Text = "0";
+                    Application["Operator"] = null;
                     break;
                 case "*":
+                    txtDisplay.Text = (Convert.ToDecimal(Application["X"]) * Convert.ToDecimal(txtDisplay.Text)).ToString();
+                    Application["Operator"] = null;
                     break;
                 case "=":
+                    Application["Operator"] = null;
                     break;
                 default:
                     Application["X"] = txtDisplay.Text; //make var X the text.
@@ -60,7 +61,11 @@ namespace _245_AssignmentA_ReWork
                     txtDisplay.Text = "0";
                     break;
             }
+        }
 
+        protected void btnPoint_Click(object sender, EventArgs e)
+        {
+            txtDisplay.Text = txtDisplay.Text.Contains(".") ? txtDisplay.Text = txtDisplay.Text : txtDisplay.Text += ".";
         }
     }
 }
