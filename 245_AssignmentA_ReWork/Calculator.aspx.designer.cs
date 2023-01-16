@@ -24,6 +24,24 @@ namespace _245_AssignmentA_ReWork
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
+        /// Label1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
+
+        /// <summary>
+        /// DropDownList1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+
+        /// <summary>
         /// Panel1 control.
         /// </summary>
         /// <remarks>
@@ -49,6 +67,15 @@ namespace _245_AssignmentA_ReWork
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnC;
+
+        /// <summary>
+        /// btnAdd control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAdd;
 
         /// <summary>
         /// btn7 control.
@@ -78,6 +105,15 @@ namespace _245_AssignmentA_ReWork
         protected global::System.Web.UI.WebControls.Button btn9;
 
         /// <summary>
+        /// btnMin control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnMin;
+
+        /// <summary>
         /// btn4 control.
         /// </summary>
         /// <remarks>
@@ -103,6 +139,15 @@ namespace _245_AssignmentA_ReWork
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btn6;
+
+        /// <summary>
+        /// btnMult control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnMult;
 
         /// <summary>
         /// btn1 control.
@@ -132,15 +177,6 @@ namespace _245_AssignmentA_ReWork
         protected global::System.Web.UI.WebControls.Button btn3;
 
         /// <summary>
-        /// btnCalc control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCalc;
-
-        /// <summary>
         /// btnDivide control.
         /// </summary>
         /// <remarks>
@@ -150,31 +186,13 @@ namespace _245_AssignmentA_ReWork
         protected global::System.Web.UI.WebControls.Button btnDivide;
 
         /// <summary>
-        /// btnMult control.
+        /// btnCalc control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnMult;
-
-        /// <summary>
-        /// btnMin control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnMin;
-
-        /// <summary>
-        /// btnAdd control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAdd;
+        protected global::System.Web.UI.WebControls.Button btnCalc;
 
         /// <summary>
         /// btn0 control.
@@ -193,5 +211,14 @@ namespace _245_AssignmentA_ReWork
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnPoint;
+
+        /// <summary>
+        /// picFG control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image picFG;
     }
 }
