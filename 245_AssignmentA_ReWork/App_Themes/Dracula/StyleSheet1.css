@@ -1,4 +1,6 @@
-﻿body {
+﻿
+/*Dracula Theme*/
+body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #282a36;
     background-image: url('./bg.png');
@@ -8,15 +10,20 @@
     background-size: 100% 100%
 }
 
-h1{
-    font-family:'Times New Roman', Times, serif;
+h1 {
+    font-family: 'Times New Roman', Times, serif;
     color: #f8f8f2;
+}
+
+
+a {
+    color: #f1fa8c;
 }
 
 .desc {
     font-family: 'Times New Roman', Times, serif;
     color: #f8f8f2;
-    font-size:medium;
+    font-size: medium;
 }
 
 .ButtonNum {
@@ -48,10 +55,25 @@ h1{
 #Panel1 {
     background-color: #282a36;
     border-radius: 4px;
-    
+}
+
+#picFG {
+    width: 150px;
+    height: auto;
 }
 
 .Screen {
     background-color: #50fa7b;
     border-radius: 2px;
 }
+
+footer {
+    text-align: center;
+    padding: 3px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #44475a;
+    color: #f8f8f2;
+}
+

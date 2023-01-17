@@ -6,13 +6,12 @@
 <head runat="server">
     <title>Assignment B - Calculator Themes</title>
 </head>
-<body style="background-color: #252c2b; padding:10px; ">
-        <div>
-            <h1>PROG 245 - Calculator Theme Selector:</h1>
-
-        </div>
-    <form id="form1" runat="server" style="width:53%; display:block; vertical-align:middle; align-content:center">
-        <asp:Label ID="Label1" runat="server" Text="Select a Calculator Theme" CssClass="desc"></asp:Label>
+<body style="background-color: #252c2b; padding: 10px;">
+    <div>
+        <h1>PROG 245 - Calculator Theme Selector</h1>
+    </div>
+    <form id="form1" runat="server" style="width: 53%; display: block; vertical-align: middle; align-content: center">
+        <asp:Label ID="Label1" runat="server" Text="Select a Calculator Theme: " CssClass="desc"></asp:Label>
         <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged1">
         </asp:DropDownList>
         <br />
@@ -47,8 +46,19 @@
 
 
             </asp:Panel>
-            <asp:Image ID="picFG" runat="server" style="z-index: 1; left: 573px; top: 116px; position: absolute" />
+            <asp:Image ID="picFG" runat="server" Style="z-index: 1; left: 573px; top: 116px; position: absolute" />
         </div>
+
+        <footer>
+            <p>
+                All themes based on Unix/Linux Terminal Color Schemes or ZSH Themes<br>
+                <a href="https://draculatheme.com/">'Dracula Color Scheme'</a> &#x2022 
+                <a href="https://github.com/morhetz/gruvbox">'GruvBox Color Scheme'</a> &#x2022
+                <a href="https://github.com/romkatv/powerlevel10k">'Power Level 10k'</a>
+                <p>This site best viewed at a resolution of around 776x1040</p>
+
+            </p>
+        </footer>
     </form>
 </body>
 </html>

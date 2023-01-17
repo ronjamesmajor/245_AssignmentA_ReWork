@@ -15,6 +15,7 @@ namespace _245_AssignmentA_ReWork
             HttpCookie c = Request.Cookies.Get("Set-Theme"); //get a cookie by name.
             if (c != null) //and if it isn't null
                 Page.Theme = c.Value; //set theme on startup.
+            else Page.Theme = "Dracula";
             string s = "~/App_Themes/" + Page.Theme + "/fg.png"; //set string to foreground pic.
             picFG.ImageUrl = s; //set foreground pic url to string.
         }
