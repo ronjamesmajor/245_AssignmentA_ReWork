@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Themes\GruvBox\StyleSheet1.css" />
+    <Content Include="App_Themes\Nord\StyleSheet1.css" />
     <Content Include="App_Themes\PowerLine\StyleSheet1.css" />
     <Content Include="Calculator.aspx" />
     <Content Include="App_Themes\Dracula\StyleSheet1.css" />

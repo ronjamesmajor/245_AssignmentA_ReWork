@@ -1,0 +1,58 @@
+﻿
+/*Nord Theme*/
+body {
+    background-color: #ECEFF4;
+    background-image: url('./bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-clip: content-box;
+    background-size: 100% 100%;
+    color: #ECEff4;
+}
+
+h1 {
+    font-family:'Agency FB';
+    color: #E5E9F0;
+}
+
+a {
+    color: #A3BE8C;
+}
+
+.ButtonNum {
+    font-family: 'Agency FB';
+    font-size: x-large;
+    background-color: #8FBCBB;
+    color: #2E3440
+}
+
+.ButtonOp {
+    font-family: 'Agency FB';
+    font-size: x-large;
+    background-color: #D08770;
+    color: #2E3440;
+}
+
+#Panel1 {
+    background-color: #E5E9F0;
+}
+
+#picFG {
+    width: 150px;
+    height: auto;
+}
+
+#Screen {
+    background-color: #D8DEE9;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #2E3440;
+    color: #88C0D0;
+}
+

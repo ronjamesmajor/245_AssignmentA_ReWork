@@ -30,6 +30,7 @@ namespace _245_AssignmentA_ReWork
                 DropDownList1.Items.Add("Dracula");
                 DropDownList1.Items.Add("GruvBox");
                 DropDownList1.Items.Add("PowerLine");
+                DropDownList1.Items.Add("Nord");
                 HttpCookie c = Request.Cookies.Get("Set-Theme"); //get a cookie by name.
                 if (c != null) //and if it isn't null
                 {
